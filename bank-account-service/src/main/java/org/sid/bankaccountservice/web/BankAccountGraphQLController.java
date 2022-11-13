@@ -3,8 +3,11 @@ package org.sid.bankaccountservice.web;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.sid.bankaccountservice.dto.BankAccountRequestDTO;
+import org.sid.bankaccountservice.dto.BankAccountResponseDTO;
 import org.sid.bankaccountservice.entities.BankAccount;
 import org.sid.bankaccountservice.repositories.BankAccountRepository;
+import org.sid.bankaccountservice.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
@@ -17,6 +20,8 @@ import java.util.List;
 public class BankAccountGraphQLController {
     @Autowired
     private BankAccountRepository bankAccountRepository;
+    @Autowired
+    private AccountService accountService;
     @QueryMapping
     public List<BankAccount> accountsList(){
         return bankAccountRepository.findAll();
@@ -27,14 +32,22 @@ public class BankAccountGraphQLController {
                 .orElseThrow(()->new RuntimeException(String.format("Account %s not found",id)));
     }
     @MutationMapping
-    public BankAccount addAcount(@Argument BankAccount bankAccount){
-        return bankAccountRepository.save(bankAccount);
+    public BankAccountResponseDTO addAccount(@Argument BankAccountRequestDTO bankAccount) {
+        return accountService.addAccount(bankAccount);
+    }
+
+    @MutationMapping
+    public BankAccountResponseDTO updateAccount(@Argument String id, @Argument BankAccountRequestDTO bankAccount) {
+        return accountService.updateAccount(id, bankAccount);
+    }
+    @MutationMapping
+    public Boolean   deleteAccount(@Argument String id) {
+         bankAccountRepository.deleteById(id);
+         return true;
     }
 }
-@Data @NoArgsConstructor @AllArgsConstructor
-class BankAccountDTO {
-    private String type;
-    private Double balance;
-    private String currency;
 
+/*
+record BankAccountDTO(Double blance, String type, String currency){
 }
+ */
