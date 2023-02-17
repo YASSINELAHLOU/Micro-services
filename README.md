@@ -3,6 +3,53 @@ RestApi et GraphQL.
 
 Part 1 - GraphQL avec Spring Boot et Angular :
 
+![Capture d’écran 2022-11-13 115216](https://user-images.githubusercontent.com/85079209/219668608-c701b019-1b16-40a0-85d2-4c814c3087d2.png)
+![Capture d’écran 2022-11-13 115257](https://user-images.githubusercontent.com/85079209/219668679-655cad53-6e8a-405c-9016-0797c0fca59f.png)
+![Capture d’écran 2022-11-13 115638](https://user-images.githubusercontent.com/85079209/219668734-3fbc029b-de9f-4e6a-b5d2-180dac8fcce2.png)
+![Capture d’écran 2022-11-13 115658](https://user-images.githubusercontent.com/85079209/219668777-430f8064-0657-4c83-a8af-477d3ae1aa75.png)
+![Capture d’écran 2022-11-13 115754](https://user-images.githubusercontent.com/85079209/219668799-af18c5b7-5f21-4097-a1e6-c10809ac85a7.png)
+![Capture d’écran 2022-11-13 115820](https://user-images.githubusercontent.com/85079209/219668839-20654de4-eb00-4ee1-9c04-bdf7558c397c.png)
+![Capture d’écran 2022-11-13 115849](https://user-images.githubusercontent.com/85079209/219668861-e04475aa-71e3-4e17-8e4f-c2ef5860c8e4.png)
+![Capture d’écran 2022-11-13 123044](https://user-images.githubusercontent.com/85079209/219668885-3df4ca9e-d3db-49d0-a811-1f61a42ab354.png)
+![Capture d’écran 2022-11-13 123234](https://user-images.githubusercontent.com/85079209/219668935-c9f69e12-23a2-4843-a760-ceab237d9d1d.png)
+![Capture d’écran 2022-11-13 125207](https://user-images.githubusercontent.com/85079209/219668982-9a4c8402-c632-4b0c-8c9c-e652bd327272.png)
+![Capture d’écran 2022-11-13 174254](https://user-images.githubusercontent.com/85079209/219669035-dcb34878-a6e6-46b5-af9a-80f941f9946c.png)
+![Capture d’écran 2022-11-13 180457](https://user-images.githubusercontent.com/85079209/219669103-854f6407-d56d-4762-a3bf-733a44108576.png)
+![Capture d’écran 2022-11-13 180547](https://user-images.githubusercontent.com/85079209/219669187-25dac53a-189e-41a1-881f-3e1880105e9f.png)
+![Capture d’écran 2022-11-13 181324](https://user-images.githubusercontent.com/85079209/219669229-5b58bbcc-a648-4c36-b114-d1fc4e76f1cb.png)
+![Capture d’écran 2022-11-13 181404](https://user-images.githubusercontent.com/85079209/219669289-d0af30e4-68e0-4550-a35f-8dd1ad2ff014.png)
+![Capture d’écran 2022-11-13 181429](https://user-images.githubusercontent.com/85079209/219669356-b260cee7-0438-4172-a77e-084fab9d9075.png)
+![Capture d’écran 2022-11-13 181451](https://user-images.githubusercontent.com/85079209/219669416-59ffef29-3534-40a3-b125-c3c0e460378f.png)
+![Capture d’écran 2022-11-13 181737](https://user-images.githubusercontent.com/85079209/219669471-bcdd5de4-a070-4ab7-b7f6-02c8927f5dfb.png)
+![Capture d’écran 2022-11-13 182950](https://user-images.githubusercontent.com/85079209/219669650-48138db8-e557-4cd1-aeed-2a062f2e019f.png)
+![Capture d’écran 2022-11-16 120519](https://user-images.githubusercontent.com/85079209/219669700-1f338ba4-c764-44bd-9884-1ec393dfbf10.png)
+![Capture d’écran 2022-11-16 120727](https://user-images.githubusercontent.com/85079209/219669774-dcab7e62-73ef-4b1e-a63c-531c8ba06c27.png)
+![Capture d’écran 2022-11-16 120806](https://user-images.githubusercontent.com/85079209/219669870-aaad600e-6b71-4e28-ba3b-9f6203fd7ff8.png)
+![Capture d’écran 2022-11-16 120829](https://user-images.githubusercontent.com/85079209/219669929-39eea8b1-c3fe-4f7e-83e6-e239a7baed88.png)
+![Capture d’écran 2022-11-16 122032](https://user-images.githubusercontent.com/85079209/219669997-5c251ca4-fc2e-452a-9ac0-190b719929a3.png)
+![Capture d’écran 2022-11-16 122129](https://user-images.githubusercontent.com/85079209/219670051-de0c46ee-29ae-40f8-b8b0-1aa6eacd17e4.png)
+![Capture d’écran 2022-11-16 122311](https://user-images.githubusercontent.com/85079209/219670095-de99f469-3f92-4c35-be49-b9a2584bf622.png)
+![Capture d’écran 2022-11-16 122354](https://user-images.githubusercontent.com/85079209/219670143-3b820d7c-5fdf-4c12-a0b9-3a25d3050537.png)
+![Capture d’écran 2022-11-16 122415](https://user-images.githubusercontent.com/85079209/219670208-ceb33a78-6259-4057-8f62-e1029eb5a948.png)
+![Capture d’écran 2022-11-16 122451](https://user-images.githubusercontent.com/85079209/219670271-73eaa744-38bf-40c0-bf76-4d0c37556dd8.png)
+![Capture d’écran 2022-11-16 123210](https://user-images.githubusercontent.com/85079209/219670317-9bc7bcab-ffca-471b-870b-23b6828aacf7.png)
+![Capture d’écran 2022-11-16 123406](https://user-images.githubusercontent.com/85079209/219670379-b38e41e7-83c2-4e4a-82be-e914e43ce020.png)
+![Capture d’écran 2022-11-16 123421](https://user-images.githubusercontent.com/85079209/219670420-d7c26f9f-aec8-4521-b4a9-866c14a069f4.png)
+![Capture d’écran 2022-11-16 123438](https://user-images.githubusercontent.com/85079209/219670457-896c7b46-48b3-435a-a3cb-764331e13c6c.png)
+![Capture d’écran 2022-11-16 123458](https://user-images.githubusercontent.com/85079209/219670515-2d7facd2-f459-486f-9a3b-b1e4df8fb56a.png)
+![Capture d’écran 2022-11-16 123518](https://user-images.githubusercontent.com/85079209/219670565-9ffde43a-222a-4c2e-b6ae-0a44ddca9673.png)
+![Capture d’écran 2022-11-16 123536](https://user-images.githubusercontent.com/85079209/219670626-489d5501-3355-4e09-8cb9-78bcc5186288.png)
+![Capture d’écran 2022-11-16 123556](https://user-images.githubusercontent.com/85079209/219670661-b36652aa-e70a-4ee8-9966-ac3b534d4e88.png)
+![Capture d’écran 2022-11-16 123614](https://user-images.githubusercontent.com/85079209/219670728-4c429631-b179-4cd8-a37c-b76d24308979.png)
+![Capture d’écran 2022-11-16 123635](https://user-images.githubusercontent.com/85079209/219670815-c045a861-f849-42f1-b2a7-b8d162b2d697.png)
+![Capture d’écran 2022-11-16 123653](https://user-images.githubusercontent.com/85079209/219670854-236772d7-4f13-43b9-8609-ead79da94069.png)
+![Capture d’écran 2022-11-16 123712](https://user-images.githubusercontent.com/85079209/219670894-a4f5cbbf-860b-498a-ae22-9941b5a5f02b.png)
+![Capture d’écran 2022-11-16 123729](https://user-images.githubusercontent.com/85079209/219670938-ec547f86-b84b-4aec-a0a5-ad67a997db73.png)
+![Capture d’écran 2022-11-16 124532](https://user-images.githubusercontent.com/85079209/219670988-50d38923-6490-4530-a914-d5ad43e7e7b8.png)
+![Capture d’écran 2022-11-16 124942](https://user-images.githubusercontent.com/85079209/219671025-6e0ed723-f8d0-47a1-b400-8091ccad7fda.png)
+
+Part 2 - Micro services - First Micro service REST Connector :
+
 ![Capture d’écran 2022-11-05 110905](https://user-images.githubusercontent.com/85079209/219662165-ee133cf1-d9f7-4fb2-b4f3-83b1e30bf3f0.png)
 ![Capture d’écran 2022-11-05 111151](https://user-images.githubusercontent.com/85079209/219662229-256b4b89-28be-4a11-8d22-e8525f8c920a.png)
 ![Capture d’écran 2022-11-05 111816](https://user-images.githubusercontent.com/85079209/219662244-e2a26ff4-0ae1-4878-8240-4767f5ec6cfa.png)
@@ -78,7 +125,6 @@ Part 1 - GraphQL avec Spring Boot et Angular :
 ![Capture d’écran 2022-11-06 235408](https://user-images.githubusercontent.com/85079209/219664801-f4d8007c-ba73-4a66-bbfd-deefc78b3d35.png)
 ![Capture d’écran 2022-11-06 235424](https://user-images.githubusercontent.com/85079209/219664828-81b4c692-d460-458b-861f-fffa422e764b.png)
 ![Capture d’écran 2022-11-06 235440](https://user-images.githubusercontent.com/85079209/219664861-d9cd798a-e7a3-4663-b452-f70580285dd9.png)
-
 
 
 
